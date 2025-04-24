@@ -425,7 +425,8 @@ button {
     height: 420px;
 }
 
-.section-portfolio-item:hover {    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.section-portfolio-item:hover {         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }    
 
 .overlay {
@@ -433,16 +434,24 @@ button {
     overflow: hidden;
 }
 
-.overlay:hover {
-    transform: translateY(0%);
+.section-portfolio-avatar {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .overlay-wrapper {
     position: absolute;
+    bottom: -100%;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: bottom 0.3s ease;
+    text-align: center;
     transform: translateY(100%);
     transition: transform 250ms ease-in-out;
     background-color: #4d5ae5;
@@ -458,7 +467,7 @@ button {
     padding: 40px 32px 164px;
 }
 
-.overlay-text:hover {
+.overlay-text:hover .overlay-wrapper {
     transform: translateY(0%);
 }
 
@@ -471,6 +480,7 @@ button {
 
 .overlay:hover .overlay-wrapper{
     transform: translateY(0);
+    bottom: 0;
 }
 
 
