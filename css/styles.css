@@ -458,6 +458,10 @@ button {
     padding: 40px 32px 164px;
 }
 
+.overlay-text:hover {
+    transform: translateY(0%);
+}
+
 .portfolio-img {
     display: block;
     max-width: 100%;
