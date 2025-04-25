@@ -69,14 +69,12 @@ button {
 .header-logo {
     padding: 24px 0;
     margin-right: 76px;
-    margin-left: 156px;
 }
 
 .nav-list {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .nav-item {
@@ -110,14 +108,12 @@ button {
 
 .contacts {
     font-style: normal;
-    margin-left: auto;
 }
 
 .contascts-list {
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-right: 156px;
 }
 
 .contacts-link {
@@ -155,7 +151,6 @@ button {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    height: 100vh;
 }
 
 .main-title {
@@ -254,7 +249,6 @@ button {
 
 .advantages-section-item {
     width: 264px;
-    height: 104px;
     flex-direction: column;
 }
 
@@ -328,6 +322,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin-bottom: 8px;
 }
 
 .section-team-networks {
@@ -342,14 +337,11 @@ button {
     gap: 24px;
     justify-content: center;
     flex-direction: row;
-    padding-top: 40px;
-    padding-left: 16px;
     align-items: center;
     list-style: none;
 }
 
 .section-team-networks-item {
-    margin-top: 8px;
     width: 40px;
     height: 40px;
 }
@@ -419,9 +411,7 @@ button {
 
 .section-portfolio-item {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border: 1px solid #e7e9fc;
     width: 360px;
-    height: 420px;
 }
 
 .section-portfolio-item:hover {         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -495,11 +485,14 @@ button {
 .footer-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 72px;
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
     align-items: baseline;
+}
+
+.footer-left-text {
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -523,13 +516,11 @@ button {
     max-width: 264px;
     display: flex;
     flex-direction: column;
-    margin-right: 120px;
 }
 
 .footer-social {
     display: flex;
     flex-direction: column;
-    margin-left: 60px;
 }
 
 .footer-social-title {
